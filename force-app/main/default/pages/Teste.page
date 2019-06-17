@@ -1,0 +1,11 @@
+<apex:page controller="testcontroller"> 
+<apex:outputpanel id="display">
+    <apex:outputText value="My var is {!myVar}"/>
+    <br/><br/>
+    <apex:outputText value="My var2 is {!myVar2}"/>
+</apex:outputpanel>
+<br/><br/>
+<apex:form >
+    <apex:commandButton value="Update my Var" action="{!save}" id="theButton"/>
+</apex:form>
+</apex:page>

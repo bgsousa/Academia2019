@@ -1,0 +1,3 @@
+<apex:page lightningStylesheets="true" showHeader="false">
+ <flow:interview name="Criar_Contacto" />
+</apex:page>
